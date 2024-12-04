@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/hispeed/git/search_engine/build/src",
+  "command": "/usr/bin/c++  -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o CMakeFiles/search_engine.dir/main.cpp.o -c /home/hispeed/git/search_engine/src/main.cpp",
+  "file": "/home/hispeed/git/search_engine/src/main.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build/src",
+  "command": "/usr/bin/c++  -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o CMakeFiles/search_engine.dir/ConverterJSON.cpp.o -c /home/hispeed/git/search_engine/src/ConverterJSON.cpp",
+  "file": "/home/hispeed/git/search_engine/src/ConverterJSON.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/ConverterJSON.cpp.o"
+}
+]
