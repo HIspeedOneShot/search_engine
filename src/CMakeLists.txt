@@ -1,12 +1,14 @@
-cmake_minimum_required(VERSION 3.5.0)
-project(search_engine VERSION 0.1.0 LANGUAGES C CXX)
-
-
-
 add_executable(search_engine main.cpp
                              ${MY_INCLUDE_DIR}/ConverterJSON.h
-                             ConverterJSON.cpp)
+                             ConverterJSON.cpp
+                             ${MY_INCLUDE_DIR}/InvertedIndex.h
+                             InvertedIndex.cpp)
 
+
+                             FetchContent_MakeAvailable(googletest)
+                             
 target_include_directories(search_engine PUBLIC ${MY_INCLUDE_DIR})
-target_link_libraries(search_engine PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(search_engine PRIVATE nlohmann_json::nlohmann_json PRIVATE gtest_main)
 
+include (GoogleTest)
+gtest_discover_tests(search_engine)

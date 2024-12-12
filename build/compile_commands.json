@@ -1,14 +1,44 @@
 [
 {
-  "directory": "/home/hispeed/git/search_engine/build/src",
-  "command": "/usr/bin/c++  -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o CMakeFiles/search_engine.dir/main.cpp.o -c /home/hispeed/git/search_engine/src/main.cpp",
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock/include -I/home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/hispeed/git/search_engine/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -I/home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o src/CMakeFiles/search_engine.dir/main.cpp.o -c /home/hispeed/git/search_engine/src/main.cpp",
   "file": "/home/hispeed/git/search_engine/src/main.cpp",
   "output": "src/CMakeFiles/search_engine.dir/main.cpp.o"
 },
 {
-  "directory": "/home/hispeed/git/search_engine/build/src",
-  "command": "/usr/bin/c++  -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o CMakeFiles/search_engine.dir/ConverterJSON.cpp.o -c /home/hispeed/git/search_engine/src/ConverterJSON.cpp",
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o src/CMakeFiles/search_engine.dir/ConverterJSON.cpp.o -c /home/hispeed/git/search_engine/src/ConverterJSON.cpp",
   "file": "/home/hispeed/git/search_engine/src/ConverterJSON.cpp",
   "output": "src/CMakeFiles/search_engine.dir/ConverterJSON.cpp.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o src/CMakeFiles/search_engine.dir/InvertedIndex.cpp.o -c /home/hispeed/git/search_engine/src/InvertedIndex.cpp",
+  "file": "/home/hispeed/git/search_engine/src/InvertedIndex.cpp",
+  "output": "src/CMakeFiles/search_engine.dir/InvertedIndex.cpp.o"
 }
 ]

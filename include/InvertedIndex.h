@@ -7,6 +7,14 @@
 struct Entry
 {
     size_t doc_id, count;
+
+    bool operator==(const Entry &other) const
+    {
+        return (doc_id == other.doc_id &&
+                count == other.count);
+    }
+
+    Entry(size_t id_, size_t value_) : doc_id(id_), count(value_) {}
 }; // структура для хранения частоты слов, встречаемых в тексте
 
 class InvertedIndex
@@ -20,17 +28,11 @@ private:
 
 public:
     InvertedIndex() = default;
-    /**
-     * Обновить или заполнить базу документов, по которой будем совершать поиск
-     * @param texts_input содержимое документов
-     */
+
+    void CreateDocs(std::vector<std::string> GetTextFile);
 
     void UpdateDocumentBase(std::vector<std::string> input_docs);
-    /**
-    * Метод определяет количество вхождений слова word в загруженной базе
-    документов
-    * @param word слово, частоту вхождений которого необходимо определить
-    * @return возвращает подготовленный список с частотой слов
-    */
+
     std::vector<Entry> GetWordCount(const std::string &word);
 };
+

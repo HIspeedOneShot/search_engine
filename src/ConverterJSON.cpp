@@ -13,7 +13,6 @@ void ConverterJSON::readConfig() // функция считывания конф
     {
         nlohmann::json readFile;
         file >> readFile;
-        // необходимо раскрыть дальнейшую логику работы с файлом
         if (readFile["config"] == nullptr) // если поле пустое
             throw std::runtime_error("config file is empty");
         else
