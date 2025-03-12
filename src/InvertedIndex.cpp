@@ -1,13 +1,13 @@
-#include "InvertedIndex.h"
+#include <InvertedIndex.h>
 #include <sstream>
 #include <algorithm>
 
-void InvertedIndex::CreateDocs(std::vector<std::string> GetTextFile)
+void InvertedIndex::CreateDocs(std::vector<std::string> path)
 {
     // формируем коллекцию текстов документов docs
-    for (size_t i = 0; i < GetTextFile.size(); ++i)
+    for (size_t i = 0; i < path.size(); ++i)
     {
-        std::ifstream file(GetTextFile[i]);
+        std::ifstream file(path[i]);
         if (!file.is_open())
             throw std::runtime_error("input file is missing");
         else
@@ -68,4 +68,25 @@ std::vector<Entry> InvertedIndex::GetWordCount(const std::string &word)
         result = freq_dictionary.at(word);
     }
     return result;
+}
+
+
+
+bool InvertedIndex :: findWord(const std::string &word)
+{
+    if (freq_dictionary.find(word) != freq_dictionary.end())
+        return true;
+    else
+        return false;
+}
+
+int InvertedIndex :: getCountFromWord(const std::string &word)
+{
+    int count = 0;
+    auto entry = freq_dictionary.at(word);
+    for (auto &i : entry)
+    {
+        count += i.count;
+    }
+    return count;
 }

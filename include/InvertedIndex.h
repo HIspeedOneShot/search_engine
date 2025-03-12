@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <vector>
 #include <map>
@@ -34,5 +35,10 @@ public:
     void UpdateDocumentBase(std::vector<std::string> input_docs);
 
     std::vector<Entry> GetWordCount(const std::string &word);
+
+    bool findWord(const std::string &word);
+    int getCountFromWord(const std::string &word);
+    
+
 };
 
