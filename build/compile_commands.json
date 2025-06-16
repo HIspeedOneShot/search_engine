@@ -25,20 +25,32 @@
 },
 {
   "directory": "/home/hispeed/git/search_engine/build",
-  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o src/CMakeFiles/search_engine.dir/main.cpp.o -c /home/hispeed/git/search_engine/src/main.cpp",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o src/CMakeFiles/project_lib.dir/InvertedIndex.cpp.o -c /home/hispeed/git/search_engine/src/InvertedIndex.cpp",
+  "file": "/home/hispeed/git/search_engine/src/InvertedIndex.cpp",
+  "output": "src/CMakeFiles/project_lib.dir/InvertedIndex.cpp.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o src/CMakeFiles/project_lib.dir/ConverterJSON.cpp.o -c /home/hispeed/git/search_engine/src/ConverterJSON.cpp",
+  "file": "/home/hispeed/git/search_engine/src/ConverterJSON.cpp",
+  "output": "src/CMakeFiles/project_lib.dir/ConverterJSON.cpp.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -g -o src/CMakeFiles/project_lib.dir/SearchServer.cpp.o -c /home/hispeed/git/search_engine/src/SearchServer.cpp",
+  "file": "/home/hispeed/git/search_engine/src/SearchServer.cpp",
+  "output": "src/CMakeFiles/project_lib.dir/SearchServer.cpp.o"
+},
+{
+  "directory": "/home/hispeed/git/search_engine/build",
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -g -o src/CMakeFiles/search_engine.dir/main.cpp.o -c /home/hispeed/git/search_engine/src/main.cpp",
   "file": "/home/hispeed/git/search_engine/src/main.cpp",
   "output": "src/CMakeFiles/search_engine.dir/main.cpp.o"
 },
 {
   "directory": "/home/hispeed/git/search_engine/build",
-  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o src/CMakeFiles/search_engine.dir/ConverterJSON.cpp.o -c /home/hispeed/git/search_engine/src/ConverterJSON.cpp",
-  "file": "/home/hispeed/git/search_engine/src/ConverterJSON.cpp",
-  "output": "src/CMakeFiles/search_engine.dir/ConverterJSON.cpp.o"
-},
-{
-  "directory": "/home/hispeed/git/search_engine/build",
-  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/nlohmann_json/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o src/CMakeFiles/search_engine.dir/InvertedIndex.cpp.o -c /home/hispeed/git/search_engine/src/InvertedIndex.cpp",
-  "file": "/home/hispeed/git/search_engine/src/InvertedIndex.cpp",
-  "output": "src/CMakeFiles/search_engine.dir/InvertedIndex.cpp.o"
+  "command": "/usr/bin/g++ -I/home/hispeed/git/search_engine/include -I/home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest/include -isystem /home/hispeed/git/search_engine/build/_deps/googletest-src/googletest -g -o test/CMakeFiles/test_runner.dir/TestBasic.cpp.o -c /home/hispeed/git/search_engine/test/TestBasic.cpp",
+  "file": "/home/hispeed/git/search_engine/test/TestBasic.cpp",
+  "output": "test/CMakeFiles/test_runner.dir/TestBasic.cpp.o"
 }
 ]

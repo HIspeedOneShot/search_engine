@@ -1,0 +1,5 @@
+if(EXISTS "/home/hispeed/git/search_engine/build/test/test_runner[1]_tests.cmake")
+  include("/home/hispeed/git/search_engine/build/test/test_runner[1]_tests.cmake")
+else()
+  add_test(test_runner_NOT_BUILT test_runner_NOT_BUILT)
+endif()

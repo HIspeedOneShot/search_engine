@@ -1,4 +1,4 @@
-#include "ConverterJSON.h"
+#include <ConverterJSON.h>
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -13,7 +13,7 @@ void ConverterJSON::readConfig() // функция считывания конф
     {
         nlohmann::json readFile;
         file >> readFile;
-        if (readFile["config"] == nullptr) // если поле пустое
+        if (readFile["config"] == nullptr) // если поле пустоеrequests
             throw std::runtime_error("config file is empty");
         else
         {
@@ -27,7 +27,7 @@ void ConverterJSON::readConfig() // функция считывания конф
 
         for (auto i = 0; i < readFile["files"].size(); i++) // выделение путей к файлам
         {
-            GetTextFile.push_back(readFile["files"][i]);
+            path.push_back(readFile["files"][i]);
         }
         // в будущем добавить проверку версии программы
     }
